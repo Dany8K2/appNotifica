@@ -21,6 +21,11 @@
 		A58975452A4B1ADC00CCDBE7 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975442A4B1ADC00CCDBE7 /* LoginCoordinator.swift */; };
 		A58975482A4B1C7400CCDBE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975472A4B1C7400CCDBE7 /* LoginView.swift */; };
 		A589754A2A4B1C8500CCDBE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */; };
+		A589754E2A4B7C0500CCDBE7 /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589754D2A4B7C0500CCDBE7 /* UIcolor+.swift */; };
+		A58975512A4B819900CCDBE7 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975502A4B819900CCDBE7 /* LabelDefault.swift */; };
+		A58975532A4B81BF00CCDBE7 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975522A4B81BF00CCDBE7 /* TextFieldDefault.swift */; };
+		A58975562A4B81EE00CCDBE7 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975552A4B81EE00CCDBE7 /* ButtonDefault.swift */; };
+		A58975582A4B822500CCDBE7 /* ImageDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975572A4B822500CCDBE7 /* ImageDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		A58975442A4B1ADC00CCDBE7 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		A58975472A4B1C7400CCDBE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A589754D2A4B7C0500CCDBE7 /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
+		A58975502A4B819900CCDBE7 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+		A58975522A4B81BF00CCDBE7 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
+		A58975552A4B81EE00CCDBE7 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		A58975572A4B822500CCDBE7 /* ImageDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,8 @@
 		A57C92EA2A2F618100505EFB /* appNotifica */ = {
 			isa = PBXGroup;
 			children = (
+				A589754F2A4B817500CCDBE7 /* Infrastructure */,
+				A589754C2A4B7BED00CCDBE7 /* Extensions */,
 				A58975462A4B1C5000CCDBE7 /* Controller */,
 				A58975412A4B1A4C00CCDBE7 /* Coordinator */,
 				A57C92EB2A2F618100505EFB /* AppDelegate.swift */,
@@ -156,6 +168,25 @@
 				A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A589754C2A4B7BED00CCDBE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A589754D2A4B7C0500CCDBE7 /* UIcolor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A589754F2A4B817500CCDBE7 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A58975502A4B819900CCDBE7 /* LabelDefault.swift */,
+				A58975522A4B81BF00CCDBE7 /* TextFieldDefault.swift */,
+				A58975552A4B81EE00CCDBE7 /* ButtonDefault.swift */,
+				A58975572A4B822500CCDBE7 /* ImageDefault.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +324,14 @@
 				A58975482A4B1C7400CCDBE7 /* LoginView.swift in Sources */,
 				A57C92F02A2F618100505EFB /* ViewController.swift in Sources */,
 				A57C92EC2A2F618100505EFB /* AppDelegate.swift in Sources */,
+				A58975512A4B819900CCDBE7 /* LabelDefault.swift in Sources */,
 				A589754A2A4B1C8500CCDBE7 /* LoginViewController.swift in Sources */,
 				A58975432A4B1A8000CCDBE7 /* Coordinator.swift in Sources */,
+				A58975562A4B81EE00CCDBE7 /* ButtonDefault.swift in Sources */,
+				A58975532A4B81BF00CCDBE7 /* TextFieldDefault.swift in Sources */,
 				A57C92F62A2F618100505EFB /* appNotifica.xcdatamodeld in Sources */,
+				A58975582A4B822500CCDBE7 /* ImageDefault.swift in Sources */,
+				A589754E2A4B7C0500CCDBE7 /* UIcolor+.swift in Sources */,
 				A57C92EE2A2F618100505EFB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,9 +6,8 @@
 //
 
 import Foundation
+import UIKit
 
-protocol Coordinator {
-    
-    func start ()
-    
+protocol  Coordinator {
+        func start ()
 }
