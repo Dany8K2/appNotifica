@@ -17,6 +17,10 @@
 		A57C93062A2F618500505EFB /* appNotificaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C93052A2F618500505EFB /* appNotificaTests.swift */; };
 		A57C93102A2F618500505EFB /* appNotificaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C930F2A2F618500505EFB /* appNotificaUITests.swift */; };
 		A57C93122A2F618500505EFB /* appNotificaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C93112A2F618500505EFB /* appNotificaUITestsLaunchTests.swift */; };
+		A58975432A4B1A8000CCDBE7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975422A4B1A8000CCDBE7 /* Coordinator.swift */; };
+		A58975452A4B1ADC00CCDBE7 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975442A4B1ADC00CCDBE7 /* LoginCoordinator.swift */; };
+		A58975482A4B1C7400CCDBE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975472A4B1C7400CCDBE7 /* LoginView.swift */; };
+		A589754A2A4B1C8500CCDBE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A57C930B2A2F618500505EFB /* appNotificaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appNotificaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C930F2A2F618500505EFB /* appNotificaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appNotificaUITests.swift; sourceTree = "<group>"; };
 		A57C93112A2F618500505EFB /* appNotificaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appNotificaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A58975422A4B1A8000CCDBE7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A58975442A4B1ADC00CCDBE7 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		A58975472A4B1C7400CCDBE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		A57C92EA2A2F618100505EFB /* appNotifica */ = {
 			isa = PBXGroup;
 			children = (
+				A58975462A4B1C5000CCDBE7 /* Controller */,
+				A58975412A4B1A4C00CCDBE7 /* Coordinator */,
 				A57C92EB2A2F618100505EFB /* AppDelegate.swift */,
 				A57C92ED2A2F618100505EFB /* SceneDelegate.swift */,
 				A57C92EF2A2F618100505EFB /* ViewController.swift */,
@@ -128,6 +138,24 @@
 				A57C93112A2F618500505EFB /* appNotificaUITestsLaunchTests.swift */,
 			);
 			path = appNotificaUITests;
+			sourceTree = "<group>";
+		};
+		A58975412A4B1A4C00CCDBE7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A58975422A4B1A8000CCDBE7 /* Coordinator.swift */,
+				A58975442A4B1ADC00CCDBE7 /* LoginCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A58975462A4B1C5000CCDBE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A58975472A4B1C7400CCDBE7 /* LoginView.swift */,
+				A58975492A4B1C8500CCDBE7 /* LoginViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58975452A4B1ADC00CCDBE7 /* LoginCoordinator.swift in Sources */,
+				A58975482A4B1C7400CCDBE7 /* LoginView.swift in Sources */,
 				A57C92F02A2F618100505EFB /* ViewController.swift in Sources */,
 				A57C92EC2A2F618100505EFB /* AppDelegate.swift in Sources */,
+				A589754A2A4B1C8500CCDBE7 /* LoginViewController.swift in Sources */,
+				A58975432A4B1A8000CCDBE7 /* Coordinator.swift in Sources */,
 				A57C92F62A2F618100505EFB /* appNotifica.xcdatamodeld in Sources */,
 				A57C92EE2A2F618100505EFB /* SceneDelegate.swift in Sources */,
 			);
