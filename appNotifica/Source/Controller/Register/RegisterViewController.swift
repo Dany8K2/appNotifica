@@ -5,21 +5,32 @@
 //  Created by IFBIOTIC04 on 29/06/23.
 //
 
+
+
 import Foundation
 import UIKit
 
-
-
 class RegisterViewController: UIViewController {
+   
+    //MARK: -  Clouseres
+    var onLoginTap: (() -> Void)?
     
-    //cria uma variável que é do tipo LoginView
-    var viewMain = RegisterView()
+    
+    lazy var registerView: RegisterView = {
+        let registerView = RegisterView()
+         registerView.onLoginTap = {
+           self.onLoginTap?()
+       }
+       return registerView
+       
+    } ()
+    
     
        override func loadView(){
-           self.view = viewMain
+           self.view = registerView
        }
        
-    // é executado quando está carregando
+    
        override func viewDidLoad() {
            super.viewDidLoad()
         self.title = "Registrar"
