@@ -11,33 +11,31 @@ import UIKit
 class RegisterView: UIView {
     //MARK: - Initialize
         override init(frame: CGRect) {
-            
+            //chama o frame da superclasse
             super.init(frame: frame)
-            
+            // muda a cor de fundo do app para branco
             self.backgroundColor = .viewBackGroundColor
             setupVisualElements()
             
         }
     
-       
-
-    
+     
+    //cria a função com as propriadades da label no login
     var imageLabel = LabelDefault(text: "Entre com seu email e sua senha para se registrar", font: UIFont.systemFont(ofSize: 27, weight: .regular))
     
-    
-    
+    //cria a função com as propriadades da text no login
     var emailTextField = TextFieldDefault (placeholder: "E-mail")
     
-    
+    //cria a função com as propriadades da text no login
     var senhaTextField = TextFieldDefault (placeholder: "Senha")
     
-    
+    //cria a função com as propriadades da text no login
     var confirmaSenhaTextField = TextFieldDefault (placeholder: "Confirme sua senha")
     
-    
+    //cria a função com as propriadades do botão registrar
     var buttonRegistrar = ButtonDefault(botao: "REGISTRAR")
     
-    
+    //cria a função com as propriadades da butao no logor
     var buttonLogar = ButtonDefault(botao: "LOGAR")
     
    
@@ -52,6 +50,7 @@ class RegisterView: UIView {
         self.addSubview(buttonRegistrar)
         self.addSubview(buttonLogar)
         
+       
         
         NSLayoutConstraint.activate([
         
@@ -100,5 +99,7 @@ class RegisterView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    
     
 }

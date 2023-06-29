@@ -19,6 +19,10 @@ class LoginView: UIView {
             
         }
     
+  //MARK: -  Clouseres
+  var onRegisterTap: (() -> Void)?
+    
+    
     var imageLogin = ImageDefault(image: "ImageLogin")
        
     
@@ -44,6 +48,8 @@ class LoginView: UIView {
         self.addSubview(senhaTextField)
         self.addSubview(buttonLogar)
         self.addSubview(buttonRegistrar)
+        
+        buttonRegistrar.addTarget(self, action: #selector(registerTap), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
         
@@ -89,4 +95,9 @@ class LoginView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    //MARK: - Actions
+    @objc
+    private func registerTap(){
+        onRegisterTap?()
+    }
 }
