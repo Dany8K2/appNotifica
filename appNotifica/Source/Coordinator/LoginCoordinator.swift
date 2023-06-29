@@ -10,7 +10,7 @@ import UIKit
 class LoginCoordinator: Coordinator {
     
     
-    
+     
     var navigationController: UINavigationController
     
     
@@ -28,11 +28,21 @@ class LoginCoordinator: Coordinator {
           viewController.onRegisterTap = {
               self.gotoRegister()
           }
+          
+          viewController.onLoginTap = {
+              self.gotoLogin()
+          }
     }
     
     
     func  gotoRegister() {
-       let coordinator = RegisterCoordinator(navigationController: navigationController)
+        let coordinator = RegisterCoordinator(navigationController: navigationController)
         coordinator.start()
     }
+        
+        func  gotoLogin() {
+           let coordinator = HomeCoordinator(navigationController: navigationController)
+            coordinator.start()
+        }
 }
+
