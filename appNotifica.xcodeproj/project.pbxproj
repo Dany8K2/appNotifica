@@ -42,6 +42,7 @@
 		A589757C2A520C8500CCDBE7 /* TabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589757B2A520C8500CCDBE7 /* TabbarCoordinator.swift */; };
 		A589757E2A520C9700CCDBE7 /* SobreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589757D2A520C9700CCDBE7 /* SobreCoordinator.swift */; };
 		A58975802A520CB000CCDBE7 /* NovaOcorrenciaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589757F2A520CB000CCDBE7 /* NovaOcorrenciaCoordinator.swift */; };
+		A58975822A52106E00CCDBE7 /* EscolherImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975812A52106E00CCDBE7 /* EscolherImagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		A589757B2A520C8500CCDBE7 /* TabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCoordinator.swift; sourceTree = "<group>"; };
 		A589757D2A520C9700CCDBE7 /* SobreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreCoordinator.swift; sourceTree = "<group>"; };
 		A589757F2A520CB000CCDBE7 /* NovaOcorrenciaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaCoordinator.swift; sourceTree = "<group>"; };
+		A58975812A52106E00CCDBE7 /* EscolherImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolherImagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +291,7 @@
 			children = (
 				A58975752A520B4F00CCDBE7 /* NovaOcorrenciaView.swift */,
 				A58975772A520B5E00CCDBE7 /* NovaOcorrenciaViewController.swift */,
+				A58975812A52106E00CCDBE7 /* EscolherImagem.swift */,
 			);
 			path = NovaOcorrencia;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				A58975482A4B1C7400CCDBE7 /* LoginView.swift in Sources */,
 				A589757A2A520BA300CCDBE7 /* TabbarController.swift in Sources */,
 				A58975692A4DC42100CCDBE7 /* HomeViewController.swift in Sources */,
+				A58975822A52106E00CCDBE7 /* EscolherImagem.swift in Sources */,
 				A57C92F02A2F618100505EFB /* ViewController.swift in Sources */,
 				A589755E2A4DBA4A00CCDBE7 /* RegisterView.swift in Sources */,
 				A58975642A4DC3D900CCDBE7 /* ViewControllerDefault.swift in Sources */,
