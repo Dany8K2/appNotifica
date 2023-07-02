@@ -33,6 +33,7 @@
 		A58975672A4DC41700CCDBE7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975662A4DC41700CCDBE7 /* HomeView.swift */; };
 		A58975692A4DC42100CCDBE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58975682A4DC42100CCDBE7 /* HomeViewController.swift */; };
 		A589756B2A4DC52E00CCDBE7 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589756A2A4DC52E00CCDBE7 /* HomeCoordinator.swift */; };
+		A589756D2A5206AC00CCDBE7 /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A589756C2A5206AC00CCDBE7 /* ViewDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		A58975662A4DC41700CCDBE7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A58975682A4DC42100CCDBE7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A589756A2A4DC52E00CCDBE7 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		A589756C2A5206AC00CCDBE7 /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				A58975552A4B81EE00CCDBE7 /* ButtonDefault.swift */,
 				A58975572A4B822500CCDBE7 /* ImageDefault.swift */,
 				A58975632A4DC3D900CCDBE7 /* ViewControllerDefault.swift */,
+				A589756C2A5206AC00CCDBE7 /* ViewDefault.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				A58975602A4DBA5800CCDBE7 /* RegisterViewController.swift in Sources */,
 				A589754A2A4B1C8500CCDBE7 /* LoginViewController.swift in Sources */,
 				A58975672A4DC41700CCDBE7 /* HomeView.swift in Sources */,
+				A589756D2A5206AC00CCDBE7 /* ViewDefault.swift in Sources */,
 				A58975432A4B1A8000CCDBE7 /* Coordinator.swift in Sources */,
 				A58975562A4B81EE00CCDBE7 /* ButtonDefault.swift in Sources */,
 				A58975532A4B81BF00CCDBE7 /* TextFieldDefault.swift in Sources */,
