@@ -6,14 +6,17 @@
 //
 
 import Foundation
+
+
+import Foundation
 import UIKit
 class RegisterCoordinator: Coordinator {
     
-     
-     
+    
+    
     var navigationController: UINavigationController
     
-    //cria um construtor para incializar meu navationCrontroller
+    
     init (navigationController: UINavigationController ) {
             self.navigationController = navigationController
      
@@ -30,9 +33,10 @@ class RegisterCoordinator: Coordinator {
 
     }
     
-    //função que chama a registerView
+    
     func  gotoLogin() {
-       let coordinator = LoginCoordinator(navigationController: navigationController)
-        coordinator.start()
+        
+        
+        self.navigationController.popViewController(animated: true)
     }
 }

@@ -10,7 +10,6 @@ import UIKit
 class LoginCoordinator: Coordinator {
     
     
-     
     var navigationController: UINavigationController
     
     
@@ -45,4 +44,3 @@ class LoginCoordinator: Coordinator {
             coordinator.start()
         }
 }
-
