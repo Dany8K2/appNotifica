@@ -15,7 +15,7 @@ class LoginView: ViewDefault {
   var onRegisterTap: (() -> Void)?
   var onLoginTap: (() -> Void)?
     
-   
+    
     var imageLogin = ImageDefault(image: "ImageLogin")
        
     
@@ -33,7 +33,7 @@ class LoginView: ViewDefault {
         return text
          }()
     
-   
+    
     var buttonLogar = ButtonDefault(botao: "LOGAR")
     
     
@@ -44,6 +44,8 @@ class LoginView: ViewDefault {
         super.setupVisualElements()
         emailTextField.delegate = self
         senhaTextField.delegate = self
+        
+        
         self.addSubview(imageLogin)
         self.addSubview(imageLabel)
         self.addSubview(emailTextField)
@@ -54,6 +56,7 @@ class LoginView: ViewDefault {
         buttonRegistrar.addTarget(self, action: #selector(registerTap), for: .touchUpInside)
         
         buttonLogar.addTarget(self, action: #selector(loginTap), for: .touchUpInside)
+        
         
         NSLayoutConstraint.activate([
         
@@ -107,21 +110,18 @@ class LoginView: ViewDefault {
     }
 }
 
-//
 extension LoginView: UITextFieldDelegate {
   
-    //esconde o teclado quando o botão próximo é acionado e foca no proximo campo
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-       
-        //quando estiverna campo de email, ao clicar no botao seguinte vai para o campo senha
-        if textField == emailTextField {
-            //
-            self.senhaTextField.becomeFirstResponder()
-        } else {
-            //se náo for o campo senha esconde o teclado
-            textField.resignFirstResponder()
-        }
         
+        if textField == emailTextField {
+            self.senhaTextField.becomeFirstResponder()
+        
+    } else {
+        textField.resignFirstResponder()
+    }
+
         return true
     }
 }
